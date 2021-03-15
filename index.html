@@ -6,112 +6,120 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Publishing A</title>
+  <link rel="stylesheet" href="./style.css">
   <script defer src="./index.js"></script>
 </head>
 
 <body>
   <!-- Header Section -->
-  <header>
-    <nav>
-      <h3>Orange</h3>
-      <ul>
-        <li>
-          <a href="#">Benefit</a>
+  <header class="header__container">
+    <nav class="nav">
+      <h3 class="header__title">Orange</h3>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a class="nav__link" href="#">Benefit</a>
         </li>
-        <li>
-          <a href="#">Pricing</a>
+        <li class="nav__list-item">
+          <a class="nav__link" href="#">Pricing</a>
         </li>
-        <li>
-          <a href="#">Testimonials</a>
+        <li class="nav__list-item">
+          <a class="nav__link" href="#">Testimonials</a>
         </li>
       </ul>
     </nav>
-    <main>
-      <div>
+    <main class="header__desc">
+      <div class="desc__img">
         <img src="./src/img/header-img.png" alt="header-img" />
       </div>
-      <article>
-        <h1> Subscribe today and get notified first when we launch Orange app! </h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. </p>
+      <article class="desc__detail">
+        <h1 class="desc__title"> Subscribe today and get notified first when we launch Orange app! </h1>
+        <p class="desc__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        </p>
       </article>
-      <form action="#" method="POST">
-        <input type="text" placeholder="Your Email Address">
-        <button type="submit">Subscribe now</button>
+      <!-- 구독을 위한 폼-->
+      <form class="subscribe__form" action="#" method="POST">
+        <input class="subscribe__input" type="text" placeholder="Your Email Address">
+        <button class="subscribe__btn" type="submit">Subscribe now</button>
       </form>
     </main>
   </header>
   <!-- Information Section-->
-  <section>
-    <ul>
-      <li>
-        <img src="./src/img/ups-img1.png" alt="info-img-1">
-        <h3>Title 1</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. </p>
+  <section class="info__container">
+    <ul class="info__list">
+      <li class="info__list-item">
+        <img class="info__img-first" src="./src/img/ups-img1.png" alt="info-img-1">
+        <h3 class="info__title">Title 1</h3>
+        <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. </p>
       </li>
-      <li>
-        <img src="./src/img/ups-img2.png" alt="info-img-2">
-        <h3>Title 2</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. </p>
+      <li class="info__list-item">
+        <img class="info__img-second" src="./src/img/ups-img2.png" alt="info-img-2">
+        <h3 class="info__title">Title 2</h3>
+        <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. </p>
       </li>
-      <li>
-        <img src="./src/img/ups-img3.png" alt="info-img-3">
-        <h3>Title 3</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. </p>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <img src="./src/img/middle-img.png" alt="middle-img">
-    <h1>It tastes like Premium.</h1>
-    <strong>Better than an apple.</strong>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <button type="button">Subscribe now</button>
-  </section>
-  <section>
-    <h1>What Our Customers Say</h1>
-    <ul>
-      <li>
-        <span>“I love oranges!! tasty mmmmm…..”</span>
-        <span>Marjon Siero</span>
-        <span>Ironhack</span>
-      </li>
-      <li>
-        <span>“If life gives you lemons, f*ck it, I just want more oranges”</span>
-        <span>Dina Korkmazova</span>
-        <span>Ironhack</span>
+      <li class="info__list-item">
+        <img class="info__img-third" src="./src/img/ups-img3.png" alt="info-img-3">
+        <h3 class="info__title">Title 3</h3>
+        <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. </p>
       </li>
     </ul>
   </section>
-  <section>
-    <h1>Subscribe today and get notified first!</h1>
-    <span>Product launch in: 12 days</span>
-    <form action="#" method="GET">
-      <input type="text" placeholder="Your Email Address">
-      <button type="submit">Subscribe now</button>
+  <!-- Description Section -->
+  <section class="about__container">
+    <img class="about__img" src="./src/img/middle-img.png" alt="middle-img">
+    <h1 class="about__title">It tastes like Premium.</h1>
+    <strong class="about__title-detail">Better than an apple.</strong>
+    <p class="about__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum. </p>
+    <button class="about__btn" type="button">Subscribe now</button>
+  </section>
+  <!-- User Comments for our service -->
+  <section class="comment__container">
+    <h1 class="comment__title">What Our Customers Say</h1>
+    <ul class="comment__list">
+      <li class="comment__list-item">
+        <span class="user-comments">“I love oranges!! tasty mmmmm…..”</span>
+        <span class="user-name">Marjon Siero</span>
+        <span class="user-team">Ironhack</span>
+      </li>
+      <li class="comment__list-item">
+        <span class="user-comments">“If life gives you lemons, f*ck it, I just want more oranges”</span>
+        <span class="user-name">Dina Korkmazova</span>
+        <span class="user-team">Ironhack</span>
+      </li>
+    </ul>
+  </section>
+  <!-- Subscribe form -->
+  <section class="subscribe__container">
+    <h1 class="subscribe__title">Subscribe today and get notified first!</h1>
+    <span class="subscribe__desc">Product launch in: 12 days</span>
+    <!-- 구독을 위한 폼-->
+    <form class="subscribe__form" action="#" method="GET">
+      <input class="subscribe__input" type="text" placeholder="Your Email Address">
+      <button class="subscribe__btn" type="submit">Subscribe now</button>
     </form>
   </section>
-  <footer>
-    <span>© 2019 Orange All Right Reserved</span>
-    <ul>
-      <li>
-        <a href="#">Benefit</a>
+  <!-- Footer Section -->
+  <footer class="footer__container">
+    <span class="footer__copyright">© 2021 Orange All Right Reserved</span>
+    <ul class="footer__nav">
+      <li class="nav__list-item">
+        <a class="nav__link" href="#">Benefit</a>
       </li>
-      <li>
-        <a href="#">Pricing</a>
+      <li class="nav__list-item">
+        <a class="nav__link" href="#">Pricing</a>
       </li>
-      <li>
-        <a href="#">Testimonials</a>
+      <li class="nav__list-item">
+        <a class="nav__link" href="#">Testimonials</a>
       </li>
     </ul>
   </footer>

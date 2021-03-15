@@ -1,0 +1,68 @@
+:root {
+  /* Color */
+  --color-orangeFull: "#F8765E";
+  --color-lightOrange: "#FDE8E1";
+  --color-lightBlue: "#9BDBE7";
+  --color-grey: "#CDCDCD";
+  --color-darkBlue: "#031D5B";
+  --color-darkBlueLight: "#5B6C94";
+  /* Font-Size */
+  --fs-h1: 48px;
+  --fs-h1-mobile: 30px;
+  --fs-h2: 34px;
+  --fs-h2-mobile: 26px;
+  --fs-h3: 20px;
+  --fs-h3-mobile: 17px;
+  --fs-h4: 18px;
+  --fs-p: 16px;
+  /* Font-Weight */
+  --fw-h: 700;
+  --fw-h4: 600;
+  --fw-em: 700;
+  /* Line-Height */
+  --lh-h1: 1.25;
+  --lh-h1-mobile: 1.33333;
+  --lh-h2: 1.323529411764706;
+  --lh-h2-mobile: 1.730769230769231;
+  --lh-h3: 1.25;
+  --lh-h3-mobile: 1.176470588235294;
+  --lh-h4: 1.388888888888889;
+  --lh-p: 2;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* header__container CSS */
+.header__container {
+}
+
+/* Responsive Page for Mobile */
+@media (min-width: 320px) and (max-width: 768px) {
+}
