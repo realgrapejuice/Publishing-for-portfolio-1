@@ -226,6 +226,65 @@ button {
   line-height: var(--lh-p);
 }
 
+/* Description CSS */
+.about__container {
+  display: flex;
+  flex-direction: column;
+  width: 335px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.img-box {
+  width: 300px;
+  align-self: center;
+  position: relative;
+}
+
+.img-box::before {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: var(--color-orangeFull);
+  position: absolute;
+  top: 75px;
+  z-index: -1;
+}
+
+.about__img {
+  display: block;
+  width: 100%;
+}
+
+.about__title {
+  font-size: var(--fs-h1-mobile);
+  font-weight: var(--fw-h);
+  line-height: var(--lh-h1-mobile);
+  color: var(--color-orangeFull);
+  margin-bottom: 10px;
+}
+
+.about__title-detail {
+  font-size: var(--fs-h2-mobile);
+  font-weight: var(--fw-em);
+  line-height: var(--lh-h2-mobile);
+  margin-bottom: 30px;
+}
+
+.about__desc {
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
+  font-weight: var(--fw-em);
+  margin-bottom: 30px;
+}
+
+.about__container > .subscribe__btn {
+  align-self: center;
+}
+
 /* Responsive Page for Mobile */
 @media (min-width: 768px) {
 }
