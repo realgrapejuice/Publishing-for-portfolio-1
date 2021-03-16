@@ -30,41 +30,49 @@
       </ul>
     </nav>
     <main class="header__desc">
-      <div class="desc__img">
-        <img src="./src/img/header-img.png" alt="header-img" />
-      </div>
       <article class="desc__detail">
-        <h1 class="desc__title"> Subscribe today and get notified first when we launch Orange app! </h1>
-        <p class="desc__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
-        </p>
+        <div class="desc__img">
+          <img src="./src/img/header-img.png" alt="header-img" />
+        </div>
+        <div class="desc__info">
+          <h1 class="desc__title"> Subscribe today and get notified first when we launch Orange app! </h1>
+          <p class="desc__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi. </p>
+          <form class="subscribe__form" action="#" method="POST">
+            <input class="subscribe__input" type="text" placeholder="Your Email Address">
+            <button class="subscribe__btn" type="submit">Subscribe now</button>
+          </form>
+        </div>
       </article>
       <!-- 구독을 위한 폼-->
-      <form class="subscribe__form" action="#" method="POST">
-        <input class="subscribe__input" type="text" placeholder="Your Email Address">
-        <button class="subscribe__btn" type="submit">Subscribe now</button>
-      </form>
     </main>
   </header>
   <!-- Information Section-->
   <section class="info__container">
     <ul class="info__list">
       <li class="info__list-item">
-        <img class="info__img first" src="./src/img/ups-img1.png" alt="info-img-1">
+        <div class="info__img-box">
+          <img class="info__img first" src="./src/img/ups-img1.png" alt="info-img-1">
+        </div>
         <h3 class="info__title">Title 1</h3>
         <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. </p>
       </li>
       <li class="info__list-item">
-        <img class="info__img second" src="./src/img/ups-img2.png" alt="info-img-2">
+        <div class="info__img-box">
+          <img class="info__img second" src="./src/img/ups-img2.png" alt="info-img-2">
+        </div>
         <h3 class="info__title">Title 2</h3>
         <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat. </p>
       </li>
       <li class="info__list-item">
-        <img class="info__img third" src="./src/img/ups-img3.png" alt="info-img-3">
+        <div class="info__img-box">
+          <img class="info__img third" src="./src/img/ups-img3.png" alt="info-img-3">
+        </div>
         <h3 class="info__title">Title 3</h3>
         <p class="info__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -74,17 +82,19 @@
   </section>
   <!-- Description Section -->
   <section class="about__container">
-    <div class="img-box">
+    <div class="about__img-box">
       <img class="about__img" src="./src/img/header-img.png" alt="middle-img">
     </div>
-    <h1 class="about__title">It tastes like Premium.</h1>
-    <strong class="about__title-detail">Better than an apple.</strong>
-    <p class="about__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-      nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum. </p>
-    <button class="subscribe__btn" type="button">Subscribe now</button>
+    <div class="about__text-box">
+      <h1 class="about__title">It tastes like Premium.</h1>
+      <strong class="about__title-detail">Better than an apple.</strong>
+      <p class="about__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum. </p>
+      <button class="subscribe__btn" type="button">Subscribe now</button>
+    </div>
   </section>
   <!-- User Comments for our service -->
   <section class="comment__container">
